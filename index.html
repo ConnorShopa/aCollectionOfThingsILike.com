@@ -1,438 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
 
+<head>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--style files-->
-    <link rel="stylesheet" href="style.css">
-
-    
-    <!--fonts-->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700;1,800&display=swap');
-        </style>
+    <link rel="stylesheet" href="css/shopa.acotil.css">
+    <link rel="stylesheet" href="css/satoshi.css">
 
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.8.1/lottie.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/CustomEase.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
-    
-
-   
-        
- 
-
-    <title>A collection of things I like</title>
-
+    <title>shopa.acotil</title>
 
 </head>
+
 <body>
 
-    <div class="entrance" id="bigTitle">
-        <h1>A collection of things I like</h1>
-    </div> 
-<div class="feed">
-    <div class="thing" id="articleOne">
-        <div class="thingFrame">
-             <img src="https://cdn.vox-cdn.com/thumbor/YQPrfPaCArVMO_JPjgyYG7CzQNs=/6x0:1093x725/1820x1213/filters:focal(6x0:1093x725):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/29311381/lockheed-martin-sr-71-blackbird-1.0.jpg" style="width: 1000px; ">
+    <!-- HEADER + LOGO CONTAINER -->
+    <div id="headerBox">
+        <!--LOGO-->
+        <div id="logoBox">
+
+            <div class="logoBox" onClick="etGoHome()"></div>
+
         </div>
-    
-        <div class="thingLabel">
-            <div class="labelText">
 
-                <h1 class = "title" >
-                    Pilots with their SR-71 Blackbird
-                 </h1>
-       
-                <h2 class="webCredits" >
-                   <p>https://www.sbnation.com/2014/3/7/5447310/sr-71-blackbird-pilot-interview</p> 
-                </h2>
-
-            </div>       
-         </div>
-          
     </div>
-
-
-    <div class="thing" >
-        <div class="thingFrame">
-            <img src="https://pbs.twimg.com/media/Dg918RcWsAAyT9d?format=jpg&name=large" style="width: 800px; ">
-        </div>
-    
-        <div class="thingLabel">
-            <div class="labelText">
-                <h1 class = "title" >
-                    The president of Ireland and his two dogs
-                 </h1>
-       
-                <h2 class="webCredits" >
-                   <p> https://twitter.com/PresidentIRL/status/1013158127192150016/photo/1 </p> 
-                </h2>
+    <div id="content">
+        <div class="entry" id="10">
+            <div class="image">
+                <img src="acotilImages/10.png" alt="">
             </div>
-              
-                
-         </div>
+            <div class="Description">
+                <div class="Title">
+                    <h3>0010. A good quote</h3>
+                </div>
 
-    </div>
+                <div class="Credit">
+                    <h4>Rain Noe</h4>
+                </div>
 
-    <div class="thing" id="articleThree">
-        <div class="thingFrame">
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7UxrpX2lroQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="Link">
+                    <a href="https://codex.core77.com/users/Rain-Noe">https://codex.core77.com/users/Rain-Noe</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="seperatorLine">
+    
         </div>
     
-        <div class="thingLabel">
-            <div class="labelText">
-                <h1 class = "title" >
-                    Determined to return to basics, they traveled for two months
-                </h1>
-
-                <h2 class="soundCredits">
-                    <p>https://open.spotify.com/album/28iCT1OLCtcVkQZr21KYkb?si=wVouuuZWTQy2B5VqHllP0g</p>
-                </h2>
-                <h2 class="webCredits" >
-                   <p> https://www.youtube.com/watch?v=7UxrpX2lroQ </p> 
-                </h2>
+        <div class="entry" id="09">
+            <div class="image">
+                <img src="acotilImages/09.png" alt="">
             </div>
-              
-                
-         </div>
+            <div class="Description">
+                <div class="Title">
+                    <h3>0009. Hierarchy</h3>
+                </div>
 
-    </div>
-    
+                <div class="Credit">
+                    <h4>Nike (Designer unknown)</h4>
+                </div>
 
-    <div class="thing" id="articleFour">
-        <div class="thingFrame">
-            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/9cbd0f114096293.6034f2a3bd0c2.jpg" style="width: 800px; ">
+                <div class="Link">
+                    <a href="https://soles4souls.org/">https://soles4souls.org/</a>
+                </div>
+            </div>
+
         </div>
+        <div class="seperatorLine">
+
     
-        <div class="thingLabel">
-            <div class="labelText">
-                <h1 class = "title" >
-                    Fruit stickers
-                 </h1>
-       
-                <h2 class="webCredits" >
-                   <p> https://www.behance.net/gallery/114096293/Apple-stickers?tracking_source=search_projects_appreciations </p> 
-                </h2>
+
+        <div class="entry" id="08">
+            <div class="image">
+                <img src="acotilImages/08.png" alt="">
             </div>
-              
-                
-         </div>
+            <div class="Description">
+                <div class="Title">
+                    <h3>0008. Data -> Information -> Knowledge -> Insight</h3>
+                </div>
 
-    </div>
+                <div class="Credit">
+                    <h4>Unknown</h4>
+                </div>
 
-
-    <div class="thingFrame">
-        <div class="thing" >
-        <img src="https://www.logolynx.com/images/logolynx/f6/f681d8fd1389abec9d355e4bf822492d.jpeg" style="width: 800px; ">
-    </div>
-    
-        <div class="thingLabel">
-            <div class="labelText">
-                <h1 class = "title" >
-                    Nike swoosh circle
-                 </h1>
-       
-                <h2 class="webCredits" >
-                   <p> https://wearicy.com/blogs/news/the-history-of-nike-labels </p> 
-                </h2>
+                <div class="Link">
+                    <a href=""></a>
+                </div>
             </div>
-              
-                
-         </div>
 
-    </div>
-
-    <div class="thing" id="articleSix">
-        <div class="thingFrame">
-            <img src="items/Screen Shot 2020-03-04 at 9.19.00 AM.png" style="width: 800px; ">
         </div>
+        <div class="seperatorLine">
     
-        <div class="thingLabel">
-            <div class="labelText">
-                <h1 class = "title" >
-                    Rain Noe
-                 </h1>
-       
-                <h2 class="webCredits" >
-                   <p> https://codex.core77.com/users/Rain-Noe </p> 
-                </h2>
-            </div>
-              
-                
-         </div>
-
-    </div>
-
-
-
-    <div class="thing" id="articleSeven">
-        <div class="thingFrame">
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/m7NxnPbOZFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
         </div>
 
-        
-    
-        <div class="thingLabel">
-            <div class="labelText">
-                <h1 class = "title" id="07">
-                    Robot chair act
-                    
-                </h1>
-                
-                <h2 class="webCredits" >
-                   <p> https://www.youtube.com/watch?v=m7NxnPbOZFE&list=LL&index=7 </p> 
-                </h2>
+
+
+        <div class="entry" id="07">
+            <div class="image">
+                <img src="acotilImages/07.jpg" alt="">
             </div>
-              
-                
-         </div>
+            <div class="Description">
+                <div class="Title">
+                    <h3>0007. Bullet Train Design</h3>
+                </div>
 
-    </div>
-    
-    <div class="thing" id="articleEight">
-        <div class="thingFrame">
-             <img src="https://imgc.artprintimages.com/img/print/sunday-visitors-february-6-1954_u-l-pem2l90.jpg?h=550&p=0&w=550&background=fbfbfb" style="width: 1000px;  ">
-        </div>
-    
-        <div class="thingLabel" id="wideImage">
-            <div class="labelText" >
-    
-                <h1 class = "title" id="sunday">
-                    Sunday visitors
-                 </h1>
+                <div class="Credit">
+                    <h4>Keni Ekuan</h4>
+                </div>
 
-                <h1 class = "artist" >
-                    George Hughes
-                 </h1>
-       
-                <h2 class="webCredits" >
-                   <p>https://www.saturdayeveningpost.com/2020/02/post-artists-george-hughes-norman-rockwells-anti-muse/</p> 
-                </h2>
-    
-            </div>       
-         </div>
-          
-    </div>
-
-
-
-
-
-    <div class="thing" id="articleNine">
-        <div class="thingFrame">
-            <img src="https://dasprogramm.imgix.net/products/braun/446/Atelier_1.jpg" style="width: 800px; ">
-        </div>
-    
-        <div class="thingLabel">
-            <div class="labelText">
-                <h1 class = "title" >
-                    Atelier
-                 </h1>
-       
-                <h2 class="webCredits" >
-                   <p> https://dasprogramm.co.uk/shop/braun/ </p> 
-                </h2>
+                <div class="Link">
+                    <a href="http://www2.artcenter.edu/dot/kenji_ekuan_legacy.php">http://www2.artcenter.edu/dot/kenji_ekuan_legacy.php</a>
+                </div>
             </div>
-              
-                
-         </div>
 
-
-    </div>
-
-    <div class="thing" id="articleTen">
-        <div class="thingFrame">
-            <iframe src="https://open.spotify.com/embed/album/5sY6UIQ32GqwMLAfSNEaXb" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </div>
+        <div class="seperatorLine">
     
-        <div class="thingLabel">
-            <div class="labelText">
-                <h1 class = "title" >
-                    Circles
-                 </h1>
-       
-                 <h2 class="artist">
-                    <p> Mac Miller </p> 
-                 </h2>
-
-
-                <h2 class="webCredits" >
-                   <p> https://pittsburghfoundation.org/macmiller </p> 
-                </h2>
-            </div>
-              
-                
-         </div>
-
-
-    </div>
-
-    <div class="thing" id="articleEleven">
-        <div class="thingFrame">
-            <img src="http://www2.artcenter.edu/dot/images/kenji_ekuan/03_Komachi_Rendering_adj1.jpg" style="width: 800px; ">
         </div>
-    
-        <div class="thingLabel">
-            <div class="labelText">
-                <h1 class = "title" >
-                    Bullet Train design
-                 </h1>
-       
-                 <h2 class="artist" >
-                    <p> Kenji Ekuan </p> 
-                 </h2>
 
 
-                <h2 class="webCredits" id="10">
-                   <p> http://www2.artcenter.edu/dot/kenji_ekuan_legacy.php </p> 
-                </h2>
+        <div class="entry" id="06">
+            <div class="image">
+                <iframe src="https://open.spotify.com/embed/album/5sY6UIQ32GqwMLAfSNEaXb" allowtransparency="true" allow="encrypted-media" width="300" height="380" frameborder="0"></iframe>
             </div>
-              
-                
-         </div>
+            <div class="Description">
+                <div class="Title">
+                    <h3>0006. Circles</h3>
+                </div>
 
+                <div class="Credit">
+                    <h4>Mac Miller</h4>
+                </div>
 
-    </div>
+                <div class="Link">
+                    <a href="https://pittsburghfoundation.org/macmiller ">https://pittsburghfoundation.org/macmiller </a>
+                </div>
+            </div>
 
-    <div class="thing" id="articleTwelve">
-        <div class="thingFrame">
-            <img src="https://d32dm0rphc51dk.cloudfront.net/Py2nAEDDqLHd4_AxH4McUw/large.jpg" style="width: 800px; ">
         </div>
+        <div class="seperatorLine">
     
-        <div class="thingLabel">
-            <div class="labelText">
-                <h1 class = "title" >
-                Trade Winds
-                 </h1>
-       
-                 <h2 class="artist" >
-                    <p> Joseph Cornell </p> 
-                 </h2>
-
-
-                <h2 class="webCredits" >
-                   <p> https://www.newstatesman.com/culture/2015/07/joseph-cornell-self-taught-artist-who-found-freedom-tiny-spaces </p> 
-                </h2>
-            </div>
-              
-                
-         </div>
-
-
-    </div>
-
-    <div class="thing" id="articleThirteen">
-        <div class="thingFrame">
-            <img src="https://www.lacma.org/sites/default/files/styles/exhibition_image/public/primary_image/2019-01/EX2487_96-EX2487-VW042.jpg?itok=UtfzPbAD" style="width: 800px; ">
         </div>
-    
-        <div class="thingLabel">
-            <div class="labelText">
-                <h1 class = "title" >
-                    Junk Dada
-                 </h1>
-       
-                 <h2 class="artist" >
-                    <p> Noah Purifoy </p> 
-                 </h2>
 
 
-                <h2 class="webCredits" >
-                   <p> https://www.lacma.org/art/exhibition/noah-purifoy-junk-dada </p> 
-                </h2>
+
+        <div class="entry" id="05">
+            <div class="image">
+                <img src="acotilImages/05.jpg" alt="">
             </div>
-              
-                
-         </div>
+            <div class="Description">
+                <div class="Title">
+                    <h3>0005. Atelier</h3>
+                </div>
 
+                <div class="Credit">
+                    <h4>D. Rams / P. Hartwein, 1980</h4>
+                </div>
 
-    </div>
+                <div class="Link">
+                    <a href="https://www.dasprogramm.co.uk/shop/braun/view/446">https://www.dasprogramm.co.uk/shop/braun/view/446</a>
+                </div>
+            </div>
 
-    <div class="thing" id="articleFourteen">
-        <div class="thingFrame">
-            <img src="https://pbs.twimg.com/media/E03vfCoVoAAU6VI?format=jpg&name=medium" style="width: 800px; ">
         </div>
+        <div class="seperatorLine">
     
-        <div class="thingLabel">
-            <div class="labelText">
-                <h1 class = "title" >
-                    Turtle & Tortoise shells
-                 </h1>
-       
-                 <h2 class="artist" >
-                    <p> Parveen Kaswan </p> 
-                 </h2>
-
-
-                <h2 class="webCredits" >
-                   <p> https://twitter.com/ParveenKaswan/status/1391031204678234113/photo/1 </p> 
-                </h2>
-            </div>
-              
-                
-         </div>
-
-
-    </div>
-
-
-    <div class="thing" id="articleFifteen">
-        <div class="thingFrame">
-            <img src="https://pbs.twimg.com/media/DJ7DQsYUEAA4Xzi?format=jpg&name=large" style="width: 800px; ">
         </div>
-    
-        <div class="thingLabel">
-            <div class="labelText">
-                <h1 class = "title" >
-                    Honda Civic sb1 4 door (1972) (Powder Blue) 
-                 </h1>
-       
-                 <h2 class="artist" >
-                    <p>  </p> 
-                 </h2>
 
 
-                <h2 class="webCredits" >
-                   <p> https://www.autoevolution.com/cars/honda-civic-3-doors-1972.html# </p> 
-                </h2>
+
+        <div class="entry" id="04">
+            <div class="image">
+                <img src="acotilImages/04.jpg" alt="">
             </div>
-              
-                
-         </div>
+            <div class="Description">
+                <div class="Title">
+                    <h3>0004. Sunday Visitors </h3>
+                </div>
 
+                <div class="Credit">
+                    <h4>Norman Rockewell</h4>
+                </div>
+
+                <div class="Link">
+                    <a href="https://www.saturdayeveningpost.com/2020/02/post-artists-george-hughes-norman-rockwells-anti-muse/">https://www.saturdayeveningpost.com/2020/02/post-artists-george-hughes-norman-rockwells-anti-muse/</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="seperatorLine">
+    
+        </div>
+
+
+
+
+        <div class="entry" id="03">
+            <div class="image">
+                <img src="acotilImages/03.webp" alt="">
+            </div>
+            <div class="Description">
+                <div class="Title">
+                    <h3>0003. Bank of Georgia Headquarters </h3>
+                </div>
+
+                <div class="Credit">
+                    <h4>Architectural Group & Partners</h4>
+                </div>
+
+                <div class="Link">
+                    <a href="https://openscholarship.wustl.edu/bcs/133/">https://openscholarship.wustl.edu/bcs/133/</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="seperatorLine">
+    
+        </div>
+        <div class="entry" id="02">
+            <div class="image">
+                <img src="acotilImages/02.jpg" alt="">
+            </div>
+            <div class="Description">
+                <div class="Title">
+                    <h3>0002. Tortoise & Turtle Shells </h3>
+                </div>
+
+                <div class="Credit">
+                    <h4>Parveen Kaswan</h4>
+                </div>
+
+                <div class="Link">
+                    <a href="https://mobile.twitter.com/ParveenKaswan/status/1391031204678234113/photo/1">https://mobile.twitter.com/ParveenKaswan/status/1391031204678234113/photo/1</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="seperatorLine">
+    
+        </div>
+        <div class="entry" id="01">
+            <div class="image">
+                <img src="acotilImages/01.webp" alt="">
+            </div>
+            <div class="Description">
+                <div class="Title">
+                    <h3>0001. Tongue tea set </h3>
+                </div>
+
+                <div class="Credit">
+                    <h4>Bethan Laura Wood | Rosenthal</h4>
+                </div>
+
+                <div class="Link">
+                    <a href="https://www.scp.co.uk/products/tongue-tea-sets">https://www.scp.co.uk/products/tongue-tea-sets</a>
+                </div>
+            </div>
+
+        </div>
+         
 
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
+
+    <!-- FOOTER -->
     
+    <div id="footerBox">
+        <div id="footerContent">
+             2021. TORONTO, CA. <img src="assets/peaceHand.png" alt="" height="16px"> + <img src="assets/hearEmoji.png" alt="" height="16px"> <img src="assets/shopaSignatureDark.png" alt="" height="16px">
+        </div>
+    </div>
     
 
 
-    
+
+    <script src="js/acotilScripts.js"></script>
 </body>
 
-
-
-
-
-</html>     
+</html>
